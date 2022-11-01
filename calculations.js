@@ -1,20 +1,20 @@
 function increaseBalance(x, y) {
-  x = x + y;
+  x += y;
   return x;
 } // Функция сложения
 
 function decreaseBalance(x, y) {
-  x = x - y;
+  x -= y;
   return x;
 } // Функция разности
 
 function divideBalanceByAccounts(x, y) {
-  x = x / y;
+  x /= y;
   return x;
 } // Функция деления
 
 function getRestAfterDivision(x, y) {
-  x = x * y;
+  x *= y;
   return x;
 } // Функция умножения
 
